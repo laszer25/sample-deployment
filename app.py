@@ -8,4 +8,5 @@ def hello_world():
 
 @app.route('/test')
 def test():
+    val = 100/0
     return 'This is a test'
